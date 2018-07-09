@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "405318986562",
+    "firebase_url": "https://offers-68bc1.firebaseio.com",
+    "project_id": "offers-68bc1",
+    "storage_bucket": "offers-68bc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405318986562:android:32eff8548df5b5e9",
+        "android_client_info": {
+          "package_name": "dzinexperts.com.offers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405318986562-gd8cth2si7gqb67frdj452532i56b581.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkcgJdBbNVNyDZqgFCqN5zmswZTf00PTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

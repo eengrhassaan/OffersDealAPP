@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Use DrawerLayout as root container for activity -->
+
+    <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
+<android.support.design.widget.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:menu="@menu/nav_menu"
+    app:headerLayout="@layout/header_nav"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />
+

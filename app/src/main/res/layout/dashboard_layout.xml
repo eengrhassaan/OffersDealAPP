@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    app:ignore="NamespaceTypo">
+
+    <TextView
+        android:id="@+id/stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/stats"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textSize="25sp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/stats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dash_recycler">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dash_progress"
+        android:visibility="gone"
+        style="@style/SpinKitView.Large.ThreeBounce"
+        app:SpinKit_Color="@color/colorPrimary"/>
+
+</RelativeLayout>

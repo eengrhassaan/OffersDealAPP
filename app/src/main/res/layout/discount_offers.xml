@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <!--Discount title Image-->
+       <ImageView
+            android:id="@+id/disc_img"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_uploaddealimage_ph"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+        <!--android:background="@drawable/image_view_borders"-->
+
+        <!--Add Image Button-->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/disc_img_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="@string/set_image"
+            android:textColor="@android:color/white" />
+
+        <!--Discount Item-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <EditText android:id="@+id/disc_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/disc_item" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Market Rate -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <EditText android:id="@+id/disc_marketrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/rate"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Discount Rate -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <EditText android:id="@+id/disc_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/disc_rate"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--From Date of Discount-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling"
+            android:id="@+id/textInputLayout"
+            android:focusable="false"
+            android:focusedByDefault="false">
+            <EditText
+                android:id="@+id/disc_from_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusedByDefault="false"
+                android:hint="@string/fromDate"
+                android:inputType="date" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--To Date of Discount-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusedByDefault="false"
+            tools:ignore="NotSibling">
+            <EditText
+                android:id="@+id/disc_to_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/toDate"
+                android:inputType="date"
+                android:focusable="false"
+                android:focusedByDefault="false"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--Discount Description-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusedByDefault="false"
+            tools:ignore="NotSibling">
+            <EditText
+                android:id="@+id/disc_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/disc_Description"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:minLines="2"
+                android:gravity="top|left"
+                android:maxLines="6"
+                android:scrollbars="vertical"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- upload Discount offer Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/upload_disc_offer"
+            android:text="@string/upload_Discount_offer" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="colorControlNormal">@color/textHints</item>
+        <item name="colorControlActivated">@color/textHints</item>
+        <item name="colorControlHighlight">@color/textHints</item>
+        <item name="android:textColorHint">@color/textHints</item>
+        <item name="android:textColor">@color/textHints</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <!--<item name="android:colorButtonNormal">@color/colorPrimaryDark</item>-->
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.PopupOverlay">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary1</item>
+    </style>
+
+    <style name="AppTheme.separateActivity" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <!--<item name="fontPath">fonts/hallo_sans.otf></item>-->
+        <item name="android:titleTextStyle">@style/MyTheme.MyActionBar.TitleTextStyle</item>
+        <item name="android:typeface">serif</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+        <item name="android:titleTextColor" tools:targetApi="m" tools:ignore="NewApi">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="colorControlNormal">@color/textHints</item>
+        <item name="colorControlActivated">@color/textHints</item>
+        <item name="colorControlHighlight">@color/textHints</item>
+        <item name="android:textColorHint">@color/textHints</item>
+        <item name="android:textColor">@color/textHints</item>
+    </style>
+    <style name="MyTheme.MyActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:background">#81CFEB</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textbold">
+        <item name="fontPath">fonts/hallo_sans.otf</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <item name="fontPath">fonts/hallo_sans_black.otf</item>
+    </style>
+
+</resources>

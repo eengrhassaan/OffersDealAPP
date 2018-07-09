@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/dashboard_drawer"
+            android:icon="@mipmap/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/brochurelist_drawer"
+            android:icon="@mipmap/ic_brochurelist"
+            android:title="Brochure List" />
+        <item
+            android:id="@+id/brochureupload_drawer"
+            android:icon="@mipmap/ic_uploadbrochure"
+            android:title="Upload Brochure" />
+        <item
+            android:id="@+id/dealgrid_drawer"
+            android:icon="@mipmap/ic_dealsup"
+            android:title="Live Deals" />
+        <item
+            android:id="@+id/uploaddeals_drawer"
+            android:icon="@mipmap/ic_uploaddeals"
+            android:title="Upload Deal" />
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/settings_drawer"
+                android:icon="@mipmap/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/aboutus_drawer"
+                android:icon="@mipmap/ic_aboutus"
+                android:title="About Us" />
+            <item
+                android:id="@+id/signout_drawer"
+                android:icon="@mipmap/ic_logout"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="7dp"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="3dp"
+    app:cardElevation="20dp"
+    android:elevation="20dp"
+    android:layout_margin="5dp"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--ImageView of the Discounted Offer-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/ic_launcher_foreground"
+            android:id="@+id/iv1cv"/>
+            <!--android:background="@drawable/image_view_borders"-->
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:textAllCaps="true"
+            android:text="This is the Title of the Offer"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv1cv"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testestesafdskjfkadslgjaskdgjkdfgjadskljfkldsjfkladsjfkl" />
+
+        <TextView
+            android:textSize="13sp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratess"
+            android:text="Rs: xxxx"
+            android:textColor="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/disc_ratess"
+            android:text="Rs: xxxx"
+            android:layout_margin="3dp" />
+        <!--<View-->
+            <!--android:layout_margin="2dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:background="@android:color/darker_gray" />-->
+
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/validto"
+            android:text="Valid from:xx-xx-xxxx"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="3dp"
+            fontPath="fonts/hallo_sans.otf"
+            android:layout_marginBottom="15dp"
+            app:ignore="MissingPrefix" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
